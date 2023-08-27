@@ -1,0 +1,155 @@
+/* CSS Document */
+
+/* General style */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+    font-family:  'Roboto condensed', sans-serif;
+  }
+
+p {
+    font-weight: 100;
+    font-size: 25px;
+}
+
+
+
+a:link, a:visited, a:hover, a:active {
+    text-decoration: none;
+}
+
+a, a:visited, a:hover, a:active {
+    color: inherit;
+  }
+
+/* header */
+.header{
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+}
+.header h1{
+    margin: 0;
+    font-size: 50px;
+}
+
+.header p{
+    margin: 0;
+    font-size: 25px;
+}
+
+.header img{
+    width: 200px;
+    margin: 0;
+    height: auto;
+    border-radius: 50%;
+}
+
+
+.header-sticky{
+    background-color: #fff;
+    position: sticky;
+    top: 0;
+    z-index: 9999;
+    box-shadow: 0 0.5rem 0.5rem rgba(0,0,0,0.05);
+}
+
+
+ul.header-icon{
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.header-icon img{
+    padding: 5px;
+    width: 50px;
+}
+
+.header-icon li{
+    transition: all 0.35s;
+}
+
+.header-icon li:hover{
+    transform: scale(1.05, 1.05) rotate(0deg) !important;
+    transition: all 0.35s;
+}
+
+/* Container main content */
+.container-color{
+    background-color: #f1f1f1;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.container-text{
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+
+
+
+/* Publication box */
+
+.pub-box{
+    background-color: #fff;
+    max-width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    box-shadow: 0 0.2rem 1.2rem rgba(0,0,0,0.2);
+    border-radius: 10px;
+}
+
+.pub-box h2{
+    transition: all 0.35s;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.pub-box h2:hover{
+    transform: scale(1.01, 1.01) rotate(0deg) !important;
+    text-decoration: underline;
+    transition: all 0.35s;
+}
+
+.pub-box p{
+    font-family: 'Roboto Slab', serif;
+    font-weight: 200;
+    font-size: 20px;
+}
+
+/* Education box */
+.edu-box{
+    background-color: #fff;
+    max-width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    box-shadow: 0 0.2rem 1.2rem rgba(0,0,0,0.2);
+    border-radius: 10px;
+}
+
+.edu-box h2{
+    transition: all 0.35s;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.edu-box p{
+    font-family: 'Roboto Slab', serif;
+    font-weight: 200;
+    font-size: 20px;
+}

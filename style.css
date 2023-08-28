@@ -20,7 +20,6 @@ p {
 }
 
 
-
 a:link, a:visited, a:hover, a:active {
     text-decoration: none;
 }
@@ -50,15 +49,6 @@ a, a:visited, a:hover, a:active {
     margin: 0;
     height: auto;
     border-radius: 50%;
-}
-
-@media (max-width: 500px) {
-    .header p {
-        font-size: 20px;
-    }
-    .header h1 {
-        font-size: 35px;
-    }
 }
 
 
@@ -161,4 +151,45 @@ ul.header-icon{
     font-family: 'Roboto Slab', serif;
     font-weight: 200;
     font-size: 20px;
+}
+
+
+@media (max-width: 800px) {
+
+    /* header */
+
+    .header p {
+        font-size: 18px;
+    }
+    .header h1 {
+        font-size: 37px;
+    }
+
+    /* Publication box */
+
+    .pub-box{
+        max-width: 90%;
+    }
+
+    .pub-box p{
+        font-size: 18px;
+    }
+
+    .pub-box h2{
+        font-size: 22px;
+    }
+
+    /* Education box */
+    .edu-box{
+        max-width: 90%;
+    }
+
+    .edu-box p{
+        font-size: 18px;
+    }
+
+    .edu-box h2{
+        font-size: 22px;
+    }
+    
 }

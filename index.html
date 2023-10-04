@@ -36,9 +36,12 @@
         <ul class="header-icon">
           <li> <a id="contact" ><img src="./images/circled-envelope.svg" alt="Mail contact"/></a></li>
             <script>
-              var encName  = "bXlOYW1lLm15U3VybmFtZUBlcGZsLmNo";
+              /*var encName  = "bXlOYW1lLm15U3VybmFtZUBlcGZsLmNo";*/
+              var encName = "c3RlZmFuby4=";
+              var encSurname = "YmFyaXNvbkA=";
+              var encDomain = "ZXBmbC5jaA=="
               const form = document.getElementById("contact");
-              form.setAttribute("href", "mailto:".concat(atob(encName)));
+              form.setAttribute("href", "mailto:".concat(atob(encName)).concat(atob(encSurname)).concat(atob(encDomain)));
             </script>
           <li> <a href="https://github.com/StefanoBarison" target='_blank'><img src="./images/github-100.svg" alt="Github page" ></a></li>
           <li> <a href="https://it.linkedin.com/in/stefano-barison-87b114194" target='_blank'><img  src="./images/linkedin-100.svg" alt="Linkedin profile" ></a></li>

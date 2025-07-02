@@ -94,7 +94,7 @@ ul.header-icon{
 }
 
 .container-text{
-    max-width: 1400px;
+    max-width: 1200px;
     margin: 0 auto;
     padding: 20px;
 }
@@ -106,7 +106,7 @@ ul.header-icon{
 
 .pub-box{
     background-color: #fff;
-    max-width: 80%;
+    max-width: 95%;
     margin: 20px auto;
     padding: 20px;
     box-shadow: 0 0.2rem 1.2rem rgba(0,0,0,0.2);
@@ -134,7 +134,7 @@ ul.header-icon{
 /* Education box */
 .edu-box{
     background-color: #fff;
-    max-width: 80%;
+    max-width: 95%;
     margin: 20px auto;
     padding: 20px;
     box-shadow: 0 0.2rem 1.2rem rgba(0,0,0,0.2);

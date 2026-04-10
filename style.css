@@ -28,6 +28,10 @@ a, a:visited, a:hover, a:active {
     color: inherit;
   }
 
+/*a:hover {
+    text-decoration: underline;
+}
+*/
 /* header */
 .header{
     width: 100%;
